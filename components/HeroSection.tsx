@@ -10,11 +10,11 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/photo1.JPG"
+            src="/personal.JPG"
             alt="Personal Photo"
-            width={325}
-            height={325}
-            className="rounded-full shadow-2xl"
+            width={375}
+            height={375}
+            className="rounded-t-lg shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
@@ -22,12 +22,11 @@ const HeroSection = () => {
             Hi, I'm Moza!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I'm a{" "}
+            A {" "}
             <span className="font-semibold text-violet-600">
-              Computer Science Undergrad{" "}
+              Data Scientist{" "}
             </span>
-            based in Manama, Kingdom of Bahrain. I have interest in anything
-            that is visually engaging.
+            in financial services transitioning into front-end engineering, with a growing passion for visual storytelling and filmmaking 🎬
           </p>
           <Link
             to="projects"
@@ -48,7 +47,7 @@ const HeroSection = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-50}
           duration={500}
         >
           <HiArrowDown size={35} className="animate-bounce" />
